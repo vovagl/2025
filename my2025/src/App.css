@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   text-align: center;
-  /*overflow: hidden;*/
+  overflow: hidden;
 
 }
 
@@ -23,7 +23,7 @@ body {
   display: block;
   justify-content: center;
   /*align-items: center;*/
-  background-size: contain;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
