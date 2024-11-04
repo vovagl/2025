@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/2025/static/css/main.c22b6dc5.css",
+    "main.css": "/2025/static/css/main.a2d22d34.css",
     "main.js": "/2025/static/js/main.c31b8a6d.js",
     "static/js/453.63b302a9.chunk.js": "/2025/static/js/453.63b302a9.chunk.js",
     "static/media/christmas_girls_14.jpg": "/2025/static/media/christmas_girls_14.c224abe7378fe9945992.jpg",
     "index.html": "/2025/index.html",
-    "main.c22b6dc5.css.map": "/2025/static/css/main.c22b6dc5.css.map",
+    "main.a2d22d34.css.map": "/2025/static/css/main.a2d22d34.css.map",
     "main.c31b8a6d.js.map": "/2025/static/js/main.c31b8a6d.js.map",
     "453.63b302a9.chunk.js.map": "/2025/static/js/453.63b302a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22b6dc5.css",
+    "static/css/main.a2d22d34.css",
     "static/js/main.c31b8a6d.js"
   ]
 }
