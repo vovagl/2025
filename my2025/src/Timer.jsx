@@ -96,13 +96,13 @@ function Timer() {
 
     return (
         <div className="container">
-            <img src="christmas_girls_14.jpg" alt="#" />
+            {/*<img src="christmas_girls_14.jpg" alt="#" />*/}
             <div className="timer">
                 <h1>До Нового Года:</h1>
             </div>
 
 
-            <h3>{`${days} ${day} ${hours} ${hour} ${minutes} ${minute} ${seconds} ${second}`} </h3>
+            <h4>{`${days} ${day} ${hours} ${hour} ${minutes} ${minute} ${seconds} ${second}`} </h4>
 
 
 

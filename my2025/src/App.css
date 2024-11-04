@@ -4,8 +4,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   overflow: hidden;
-  height: 100vh;
-  width: 100vw;
+
 }
 
 .App {
@@ -16,31 +15,45 @@ body {
 
 }
 
+.container {
+
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../public/christmas_girls_14.jpg);
+  display: block;
+  justify-content: center;
+  /*align-items: center;*/
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 .timer {
-  color: #fdfcfc;
-  position: absolute;
-  top: 1%;
-  left: 30%
+  color: #fcfafa;
+
+  /*top: 1%;
+  left: 30%*/
 }
 
 h1 {
-  width: 400px;
+  margin: 0;
+  /*width: 400px;*/
 }
 
 img {
 
-  height: 983px;
+  height: 100%;
   width: auto;
 }
 
-h3 {
+h4 {
   color: #fcfbfb;
-  position: absolute;
+  margin: 0;
+
+  /*width: 320px;
+  overflow: visible;*/
+  /*position: absolute;
   top: 7%;
   left: 30%;
-  width: 450px;
-}
-
-.container {
-  text-align: center;
+  width: 450px;*/
 }
