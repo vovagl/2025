@@ -5,9 +5,7 @@ function Timer() {
 
     useEffect(() => {
         let timer = setInterval(() => {
-
             let expectedDay = new Date('2025-01-01T00:00:00').getTime();
-            //let expectedDay = new Date('2024-11-03T13:41:00').getTime();
             let currentDay = new Date().getTime();
             let timeDifference = expectedDay - currentDay;
             if (timeDifference > 0) {
@@ -19,7 +17,6 @@ function Timer() {
         }, 1000);
         return () => clearInterval(timer);
     }, []);
-
 
     let days = Math.floor(countdown / (1000 * 60 * 60 * 24));
     if (days < 10) {
@@ -96,16 +93,10 @@ function Timer() {
 
     return (
         <div className="container">
-            {/*<img src="christmas_girls_14.jpg" alt="#" />*/}
             <div className="timer">
                 <h1>До Нового Года:</h1>
             </div>
-
-
             <h4>{`${days} ${day} ${hours} ${hour} ${minutes} ${minute} ${seconds} ${second}`} </h4>
-
-
-
         </div>
     );
 };
