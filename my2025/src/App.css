@@ -47,13 +47,26 @@ img {
 }
 
 h4 {
+  margin-top: 10px;
+  font-size: 16px;
   color: #fcfbfb;
-  margin: 0;
+}
 
-  /*width: 320px;
+/*width: 320px;
   overflow: visible;*/
-  /*position: absolute;
+/*position: absolute;
   top: 7%;
   left: 30%;
   width: 450px;*/
+
+
+@media (min-width: 768px) {
+  .container {
+    background-size: contain;
+  }
+
+  h4 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
 }
